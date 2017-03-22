@@ -17,4 +17,4 @@ Dependencies:
 References:
 -----------
 
-* [BvG17]: M. Baumann and M.B. Van Gijzen. An Efficient Two-level Preconditioner for Multi-Frequency Wave Propagation Problems. Tech. report, DIAM Report 17-01 (2017).
+* [BvG17]: M. Baumann and M.B. Van Gijzen. An Efficient Two-level Preconditioner for Multi-Frequency Wave Propagation Problems. Tech. report, DIAM Report 17-03 (2017).
