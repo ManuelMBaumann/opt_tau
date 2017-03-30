@@ -1,5 +1,5 @@
 An Efficient Two-level Preconditioner for Multi-Frequency Wave Propagation Problems: Numerical Examples and MAPLE derivations
-=============================================================================================================================
+-----------------------------------------------------------------------------------------------------------------------------
 
 This repository contains additional material to [BvG17] that:
 
