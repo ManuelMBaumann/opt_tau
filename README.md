@@ -13,7 +13,6 @@ Our numerical experiments are done in Python3 and are stored in the subfolder `/
 
 `python3 elast_wedge.py --ndims=2 --freq[1.0,9.0] --Nom=5`
 
-![alt-text-1](/num_exper/figs/circ_pic.png "title-1") ![alt-text-2](/num_exper/figs/msconv-plot.png "title-2")
 <img src="/num_exper/figs/circ_pic.png" width="425"/> <img src="/num_exper/figs/msconv-plot.png" width="425"/> 
 
 Dependencies:
