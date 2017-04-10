@@ -1,7 +1,7 @@
 An Efficient Two-level Preconditioner for Multi-Frequency Wave Propagation Problems: Numerical Examples and MAPLE derivations
 -----------------------------------------------------------------------------------------------------------------------------
 
-This repository contains additional material to [BvG17] that:
+This repository contains additional material to [BvG17]:
 
 * complete the proof of Lemma 4.1 (files in subfolder `/maple`),
 * visualization of Lemma 4.1: https://delft.diskos.nl/bokeh/opt_tau_bokeh,
@@ -17,4 +17,4 @@ Dependencies:
 References:
 -----------
 
-* [BvG17]: M. Baumann and M.B. Van Gijzen (2017). [An Efficient Two-level Preconditioner for Multi-Frequency Wave Propagation Problems.](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/) Tech. report, DIAM Report 17-03.
+* [BvG17]: M. Baumann and M.B. Van Gijzen (2017). [An Efficient Two-level Preconditioner for Multi-Frequency Wave Propagation Problems.](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/) Tech. report, DIAM Report 17-03, Delft University of Technology.
