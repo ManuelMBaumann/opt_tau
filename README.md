@@ -9,7 +9,7 @@ This repository contains additional material to [BvG17]:
 
 Numerical experiments:
 ----------------------
-Our numerical experiments are done in Python3 and are stored in the subfolder `/num_exper`. The experiments can be reproduced with the scripts `exp1.sh` - `exp5.sh`, respectively. An example run form the command line looks like:
+Our numerical experiments are done in Python3 and are stored in the subfolder `/num_exper`. The experiments can be reproduced with the scripts `exp1.sh` - `exp5.sh`, respectively. An example run from the command line looks like:
 
 `python3 elast_wedge.py --ndims=2 --freq[1.0,9.0] --Nom=5`
 
