@@ -6,7 +6,7 @@ Use the ``bokeh serve`` command to run the example by executing:
 
 at your command prompt. Then navigate to the URL
 
-    http://localhost:5006/opt_tau_online
+    http://localhost:5006/opt_tau_bokeh
 
 in your browser.
 
@@ -121,7 +121,7 @@ tau_re_s = Slider(title="Real part", value=tau.real/(2*pi*fmax), start=0.0, end=
 tau_im_s = Slider(title="Imag part", value=tau.imag/(2*pi*fmax), start=-1.0, end=0.0, step=0.001)
 
 eps_s    = Slider(title="viscous damping", value=eps, start=0.0, end=1.0, step=0.01)
-#Nom_text = TextInput(title="n_f = ", value=str(Nom))
+Nom_text = TextInput(title="n_f = ", value=str(Nom))
 fmin_s   = Slider(title="f_min [Hz]", value=fmin, start=0.0, end=15.0, step=0.1)
 fmax_s   = Slider(title="f_max [Hz]", value=fmax, start=0.0, end=15.0, step=0.1)
 frange_s = RangeSlider(start=0.0, end=15.0, range=(fmin,fmax), step=0.1, title="freq. range [Hz]")
