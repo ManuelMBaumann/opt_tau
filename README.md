@@ -15,6 +15,8 @@ Our numerical experiments are done in Python3 and are stored in the subfolder `/
 
 <img src="/num_exper/figs/circ_pic.png" width="425"/> <img src="/num_exper/figs/msconv-plot.png" width="425"/> 
 
+(extreme frequencies displayed in red)
+
 Dependencies:
 -------------
 For the proof of Lemma 4.1:
