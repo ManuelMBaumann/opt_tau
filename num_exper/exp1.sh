@@ -2,19 +2,26 @@
 . ~/.bashrc
 
 
-#Exp 1
-# python3 -u elast_wedge.py --ndims=2 --dx=5.0 --dy=5.0 --dz=5.0 --freq=[1,5] --Nom=10 --degree=1 --damping=0.07 --maxit=300 \
-#                             --tol=1e-8 --dg_pp=0 --tau_re=-100 -tau_im=-0.7 --block=True \
-#                             --plots=True --plot_resnrm=True --solver_flag=0 --nprocs=8  | tee experm/exp1.txt
+# Exp. 1
+# python3 -u elast_wedge.py --tau_re=-100 --dx=5 --dz=5 --freq=[1.0,5.0] --Nom=5 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom5_f15.txt  
+# python3 -u elast_wedge.py --tau_re=-100 --dx=5 --dz=5 --freq=[1.0,5.0] --Nom=10 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom10_f15.txt  
+# python3 -u elast_wedge.py --tau_re=-100 --dx=5 --dz=5 --freq=[1.0,5.0] --Nom=20 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom20_f15.txt  
+# 
+# python3 -u elast_wedge.py --tau_re=-100 --dx=5 --dz=5 --freq=[1.0,10.0] --Nom=5 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom5_f110.txt  
+# python3 -u elast_wedge.py --tau_re=-100 --dx=5 --dz=5 --freq=[1.0,10.0] --Nom=10 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom10_f110.txt  
+# python3 -u elast_wedge.py --tau_re=-100 --dx=5 --dz=5 --freq=[1.0,10.0] --Nom=20 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom20_f110.txt 
+# 
+# 
+# 
+# python3 -u elast_wedge.py --tau_re=-100 --dx=2.5 --dz=2.5 --freq=[1.0,5.0] --Nom=5 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom5_f15_h2.txt  
+# python3 -u elast_wedge.py --tau_re=-100 --dx=2.5 --dz=2.5 --freq=[1.0,5.0] --Nom=10 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom10_f15_h2.txt  
+# python3 -u elast_wedge.py --tau_re=-100 --dx=2.5 --dz=2.5 --freq=[1.0,5.0] --Nom=20 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom20_f15_h2.txt  
+# 
+# 
+# python3 -u elast_wedge.py --tau_re=-100 --dx=2.5 --dz=2.5 --freq=[1.0,10.0] --Nom=10 --damping=0.05 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8 | tee experm/exp1_Nom10_f110_h2.txt  
+                            
 
-python3 -u elast_wedge.py --ndims=2 --dx=100.0 --dy=100.0 --dz=100.0 --freq=[1,3] --Nom=7 --degree=1 --damping=0.05 --maxit=1 \
-                          --tol=1e-8 --dg_pp=0 --tau_re=-100 -tau_im=-0.7 --block=False \
-                          --plots=False --plot_resnrm=True --solver_flag=1 --nprocs=8  | tee experm/exp1.txt
-                            
-                            
-# python3 -u elast_wedge.py --ndims=2 --dx=2.5 --dy=2.5 --dz=2.5 --freq=[20,26] --Nom=7 --degree=1 --damping=0.05 --maxit=30 \
-#                           --tol=1e-8 --dg_pp=0 --tau_re=-100 -tau_im=-0.7 --block=False \
-#                           --plots=True --plot_resnrm=True --solver_flag=1 --nprocs=8  | tee experm/exp1.txt
-                            
-                            
+# python3 elast_wedge.py --tau_re=-100 --dx=10 --dz=10 --freq=[1.0,10.0] --Nom=5 --damping=0.7 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8                    
+python3 elast_wedge.py --tau_re=0.3 --tau_im=-0.7 --dx=10 --dz=10 --freq=[1.0,10.0] --Nom=5 --damping=0.7 --dg_pp=0 --block=True --plots=False --solver_flag=0 --nprocs=8                                  
+   
                             
