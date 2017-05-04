@@ -30,6 +30,10 @@ For the numerics:
 * [nutils](http://www.nutils.org/):  `pip install git+https://github.com/joostvanzwieten/nutils@955bc67d219496e26b037f47855709a222850d7c`
 * NumPy [v 1.8.2], SciPy [v 0.14.0], matplotlib [v 1.4.2]
 
+Hardware info:
+--------------
+All numerical examples presented in Section 6 of [BvG17] have been implemented in Python-3 running over GNU/Debian Linux, and executed on a computer with 4 CPUs Intel I5 with 32 GB of RAM.
+
 References:
 -----------
 * [BvG17]: M. Baumann and M.B. van Gijzen (2017). [An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Problems.](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/) Tech. report, DIAM Report 17-03, Delft University of Technology.
