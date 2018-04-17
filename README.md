@@ -36,4 +36,4 @@ All numerical examples presented in Section 6 of [BvG17] have been implemented i
 
 References:
 -----------
-* [BvG17]: M. Baumann and M.B. van Gijzen (2017). [An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Problems.](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/) Tech. report, DIAM Report 17-03, Delft University of Technology.
+* [BvG17]: M. Baumann and M.B. van Gijzen (2017). [An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Problems.](https://d1rkab7tlqy5f1.cloudfront.net/EWI/Over%20de%20faculteit/Afdelingen/Applied%20Mathematics/Reports/2017/BvG_TR-17-03.pdf) Tech. report, DIAM Report 17-03, Delft University of Technology.
