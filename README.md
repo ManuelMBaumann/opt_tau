@@ -6,7 +6,7 @@ An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Probl
 This repository contains additional material to [BvG17]:
 
 * complete the proof of Lemma 4.1 with two Maple scripts (files in subfolder `/maple`),
-* visualization of Lemma 4.1: https://delft.diskos.nl/bokeh/opt_tau_bokeh,
+* visualization of Lemma 4.1: https://manuelmbaumann.github.io/optimal-tau/,
 * numerical experiments as presented in Section 6 (subfolder `/num_exper`).
 
 Numerical experiments:
