@@ -3,7 +3,7 @@
 An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Problems: Numerical Examples and MAPLE derivations
 -----------------------------------------------------------------------------------------------------------------------------
 
-This repository contains additional material to [BvG17]:
+This repository contains additional material to [BvG18]:
 
 * complete the proof of Lemma 4.1 with two Maple scripts (files in subfolder `/maple`),
 * visualization of Lemma 4.1: https://manuelmbaumann.github.io/optimal-tau/,
@@ -36,4 +36,4 @@ All numerical examples presented in Section 6 of [BvG17] have been implemented i
 
 References:
 -----------
-* [BvG17]: M. Baumann and M.B. van Gijzen (2017). [An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Problems.](https://d1rkab7tlqy5f1.cloudfront.net/EWI/Over%20de%20faculteit/Afdelingen/Applied%20Mathematics/Reports/2017/BvG_TR-17-03.pdf) Tech. report, DIAM Report 17-03, Delft University of Technology.
+* [BvG18]: M. Baumann and M.B. van Gijzen (2018). [An Efficient Two-Level Preconditioner for Multi-Frequency Wave Propagation Problems.](https://doi.org/10.1016/j.apnum.2018.08.020) Appl. Numer. Meth., doi: 10.1016/j.apnum.2018.08.020.
